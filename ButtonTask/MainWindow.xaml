@@ -1,0 +1,17 @@
+﻿<Window x:Class="ButtonTask.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ButtonTask"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Name="button1" Content="1" Width="100" Height="50" Margin="20" VerticalAlignment="Top" HorizontalAlignment="Left" Background="Red" Click="Button_Click" MouseRightButtonDown="Button_RightClick"/>
+        <Button Name="button2" Content="2" Width="100" Height="50" Margin="20" VerticalAlignment="Top" HorizontalAlignment="Center" Background="Blue" Click="Button_Click" MouseRightButtonDown="Button_RightClick"/>
+        <Button Name="button3" Content="3" Width="100" Height="50" Margin="20" VerticalAlignment="Top" HorizontalAlignment="Right" Background="Green" Click="Button_Click" MouseRightButtonDown="Button_RightClick"/>
+        <Button Name="button4" Content="4" Width="100" Height="50" Margin="20" VerticalAlignment="Center" HorizontalAlignment="Left" Background="Yellow" Click="Button_Click" MouseRightButtonDown="Button_RightClick"/>
+        <Button Name="button5" Content="5" Width="100" Height="50" Margin="20" VerticalAlignment="Center" HorizontalAlignment="Center" Background="Orange" Click="Button_Click" MouseRightButtonDown="Button_RightClick"/>
+        <Button Name="button6" Content="6" Width="100" Height="50" Margin="20" VerticalAlignment="Center" HorizontalAlignment="Right" Background="Purple" Click="Button_Click" MouseRightButtonDown="Button_RightClick"/>
+    </Grid>
+</Window>
